@@ -1,3 +1,9 @@
 letters = ["a", "b", "c", "d", "e"]
 
-p letters.include?("f")
+check_f = letters.include?("f")
+
+if check_f == true
+  print "f is found"
+else
+  print "f is not found"
+end
